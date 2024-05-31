@@ -1,0 +1,992 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab&display=swap');
+body{
+    background-color: rgb(25, 25, 25);
+    color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Raleway", sans-serif; 
+}
+.active{
+    color:#F8DA64;
+}
+#border-section{
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+    padding-bottom: 80px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-bar .logo img{
+    width:160px;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-right: 20px;
+    
+}
+.nav-bar .nav-items ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.nav-bar .nav-items ul li{
+    list-style-type: none;
+    padding: 8px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    padding: 20px;
+}
+.nav-bar .nav-items ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav-bar .login-button a{
+    text-decoration: none;
+    font-size: 15PX;
+    background-color: #ffff;
+    color:#000;
+    padding: 10px 30px;
+    border: none;
+border-radius: 10px;
+margin-top: 40px;
+margin-right: 90px;
+}
+.nav-bar .login-button{
+    font-size: 15PX;
+    padding: 10px 30px;
+    margin-top: 45px;
+    margin-right: 30px;
+}
+
+/* home section  */
+.home-section .home-button button{
+    background-color: #ffff;
+    font-size:18PX;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 15px 50px;
+    border-radius: 8px;
+
+}
+.home-section .home-title-section p{
+    font-size: 64px;
+    margin-left:100px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.home-section .home-title-section a{
+    text-decoration: none;
+    color:#000;
+    background-color: #f8da64;
+    padding: 20px;
+    font-size: 18px;
+    margin-left:100px;
+    margin-top: 15px;
+    border-radius: 10px;
+    float:left;
+}
+.home-section .home-title-section img{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+/* main image style */
+.image-section img{
+    width:650px;
+    position: absolute;
+    top: 150px;
+    left:800px;
+}
+.image-section .explore {
+    position: absolute;
+    border: 30px solid #624bff;
+    border-radius: 50%;
+    width: 200px;
+    top:530px;
+    left:650px;
+    
+}
+.primary-heading {
+    text-align: center;
+    font-size: 44px;
+    margin-top: 200px;
+}
+.line-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    
+    
+}
+.courses-section .courses-links{
+    margin-top: 100px;
+}
+.courses-links{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 30px;
+    
+}
+#link-active{
+    background-color: #624bff;
+    border: none;
+    color: #ffff;
+}
+.courses-links a{
+    color: #818c96;
+    border: 1px solid #C4C4C4;
+    border-radius: 4px;
+    margin-right: 26px;
+    padding: 5px 20px;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.grey-color{
+    color:#818c96;
+    
+}
+/* courses info styles */
+.courses-info{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+
+}
+.courses-info .card-container {
+background-color: #212121;
+height: 500px;
+width:300px;
+margin:10px;
+border-radius: 20px;
+
+}
+.courses-info .card-container .students-info{
+    
+    position: absolute;
+    display: flex;
+    background-color: #ffff;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: -20px;
+    border-radius: 45px;
+    padding: 10px;
+    z-index: 1;
+   
+}
+.courses-info .card-container .students-info img{
+    padding: 0;
+    margin-left: 8px;
+   
+}
+.courses-info .card-container .students-info p{
+    color: #212121;
+    margin:auto;
+    
+}
+.courses-info .card-container h2{
+    font-size: 18px;
+    margin-top:60px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.courses-info .card-container p{
+    color:#818c96;
+    margin: 30px 20px;
+}
+.courses-info .card-container .learn-more-button{
+color: #f8da64;
+border: 1px solid #f8da64;
+border-radius: 10px;
+padding: 10px 20px;
+text-decoration: none;
+
+margin-left: 150px;
+position: relative;
+
+
+}
+.courses-info .card-container .learn-more-button:hover{
+    background-color: #f8da64;
+    color: #212121;
+    cursor: pointer;
+}
+
+/* ----------------- */
+/* why-us section styles */
+
+.why-us-section p{
+    font-size: 18px;
+    text-align: center;
+    color:#818c96;
+    font-weight: 100;
+    margin-top: 20px;
+    line-height:25px;
+    margin-bottom: 62px;
+}
+.why-us-section .row1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.why-us-section .row1 .items{
+    height: 200px;
+    width: 280px;
+    padding: auto;
+    background-color: #212121;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why-us-section .row1 .items img{
+    width: 50px;
+    margin-top: 20px;
+}
+
+.why-us-section .row1 .items p{
+    font-size: 18px;
+}
+
+/* row2 style */
+.why-us-section .row2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+
+}
+.why-us-section .row2 .items{
+    height: 200px;
+    width: 280px;
+    padding: auto;
+    background-color: #212121;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why-us-section .row2 .items img{
+    width: 50px;
+    margin-top: 20px;
+}
+
+.why-us-section .row2 .items p{
+    font-size: 18px;
+}
+/* learning experience styles */
+
+.learning-experience{
+    height: 500px;
+    background-color: #212121;
+    margin: 80px 20px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.learning-experience .why-we-line{
+    width: 41px;
+    display: inline-block;
+    height: 3px;
+    background: #F8DA64;
+    vertical-align: middle;
+    margin-right: 15px;
+    
+
+}
+.text-center{
+    text-align: center;
+}
+.learning-experience .why-we-title {
+    color: #fff;
+    font-weight: 200;
+    
+}
+
+.learning-experience .learning-experience-heading {
+    text-align: center;
+    font-size: 44px;
+    color:#ffff;
+    margin-top: 10px;
+}
+.learning-experience .learning-experience-container{
+    display: flex;
+    margin: 100px;
+}
+.learning-experience .learning-experience-container .items{
+    border: 1px solid #ffff;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* hash include team section stlyes */
+.hash-include-team-section .hash-include-team{
+    display: flex;
+}
+
+.hash-include-team-section .hash-include-team .image-container{
+    padding-top: 20px;
+    padding-left:200px ;
+    padding-right: 100px;
+    padding-bottom: 50px;
+
+}
+.hash-include-team-section .hash-include-team .content-container button{
+    background: #D4E1FF;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    color:#212121;
+    margin-left: 30px;
+    
+}
+.hash-include-team-section .hash-include-team .content-container p{
+    font-size: 39px;
+    margin-left:15px;
+    margin-top: 15px;
+}
+.hash-include-team-section .hash-include-team .content-container ul{
+    list-style-type: none;
+    
+}
+.hash-include-team-section .hash-include-team .content-container ul li{
+    padding: 10px 10px;
+    /* margin: 5px; */
+}
+.hash-include-team-section .hash-include-team .items{
+    display: flex;
+    
+   
+}
+
+.hash-include-team-section .hash-include-team .items img{
+    margin: 10px;
+
+}
+
+/* about us section styles */
+.about-us-section{
+    background-color: #212121;
+    margin:0px 30px;
+    
+}
+.about-us-section .about-us-flex-container-1{
+    display: flex;
+}
+.about-us-section .about-us-flex-container-1 .about-us-image img{
+    width: 450px;
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.about-us-section .about-us-flex-container-1 .about-us .about-us-line{
+    width: 41px;
+    display: inline-block;
+    height: 3px;
+    background: #F8DA64;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.about-us-section .about-us-flex-container-1 .about-us-content{
+    padding: 20px;
+}
+.about-us-section .about-us-flex-container-1 .about-us-content .about-us{
+    padding-top:70px;
+}
+.about-us-section .about-us-flex-container-1 .about-us-content .about-us-heading {
+font-size: 34px;
+}
+.about-us-section .about-us-flex-container-1 .about-us-content .about-us-para{
+    line-height: 31px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.about-us-section .about-us-flex-container-1 .about-us-content .about-us-button{
+    color: #f8da64;
+border: 1px solid #f8da64;
+border-radius: 10px;
+padding: 10px 30px;
+text-decoration: none;
+margin-top: 50px;
+
+}
+
+.about-us-section .about-us-flex-container-2{
+   
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-us-section .about-us-flex-container-2 .items .two{
+font-size: 48px;
+}
+.about-us-section .about-us-flex-container-2 .items sup{
+    color:#F8DA64;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: -5px;
+    
+}
+.about-us-section .about-us-flex-container-2 .items p{
+    margin-left: -50px;
+    font-size: 18px;
+}
+.about-us-section .about-us-flex-container-2 .items .ten{
+    font-size: 35px;
+    font-weight: bold;
+}
+.about-us-section .about-us-flex-container-2 .items .k{
+    color:#F8DA64;
+    font-size: 48px;
+    
+}
+.about-us-section .about-us-flex-container-2 .items .five{
+    font-size: 48px;
+}
+.about-us-section .about-us-flex-container-2 .items-relative .nine{
+    font-size: 48px;
+    padding: 0;
+    margin: 0px;
+}
+.about-us-section .about-us-flex-container-2 .items-relative{
+    position: relative;
+}
+.about-us-section .about-us-flex-container-2 .items-relative .eight{
+    font-size: 48px;
+    margin-top: -20px;
+    
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    
+}
+.about-us-section .about-us-flex-container-2 .items-relative .percent{
+    font-size: 44px;
+    color:#F8DA64;
+    position: absolute;
+    top:-5px;
+    left: 50px;
+}
+
+
+/* testimonial section styles */
+.testimonial-section .testimonial-heading .testimonial-line{
+    width: 41px;
+    display: inline-block;
+    height: 3px;
+    background: #F8DA64;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.testimonial-section .testimonial-heading {
+    padding-top: 100px;
+}
+.testimonial-section .testimonial-heading .testimonial-title{
+    font-size: 18px;
+}
+.testimonial-section .testimonial-header{
+    font-size: 40px;
+    margin: 10px;
+}
+.testimonial-section .testimonial-container{
+    display: flex;
+    padding: 50px 100px;
+}
+.testimonial-section .testimonial-container .container{
+    border: 1px solid #ffff;
+    border-radius: 20px;
+    background: linear-gradient(143deg, rgba(32, 32, 32, 1) 45%, rgb(49 40 108) 100%);
+    margin: 0px 10px;
+    
+}
+.testimonial-section .testimonial-container .container .student-info{
+    display: flex;
+    padding:0px 20px;
+}
+.testimonial-section .testimonial-container .container .student-description{
+    padding: 20px;
+    line-height: 25px;
+
+}
+.testimonial-section .testimonial-container .container .student-info .student-data{
+    margin: 20px;
+}
+
+/* offer  period section */
+.offer-period-section {
+    height:400px;
+display: flex;
+background: url(../assests/
+) #624BFF;
+    max-width: 90%;
+    margin: 80px 150px;
+    border-radius: 15px;
+    color: #fff;
+    padding:20px 100px;
+    background-position: 126px 127px;
+    background-repeat: no-repeat;
+}
+
+.offer-period-section .offer-inner-block p{
+font-size: 48px;
+font-weight: 100;
+margin-right: 100px;
+}
+
+.offer-period-section .offer-inner-block ul li{
+    font-size: 18px;
+    list-style: none;
+    padding: 10px;
+    margin-left:5px;
+    margin-top: -8px;
+}
+.offer-period-section .offer-inner-block ul .items{
+    display: flex;
+    
+}
+.offer-period-section .offer-inner-block ul .items span img{
+    margin-left: -30px;
+}
+.offer-period-section .offer-inner-block .apply-now{
+    background-color: #ffff;
+    text-decoration: none;
+    color: #0b7077;
+    padding: 10px 20px;
+    border-radius: 9px;
+    margin-top: 100px;
+}
+.offer-period-section .offer-heading p{
+    font-size: 32px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+/* footer styles */
+
+.footer-section{
+    height: 400px;
+    background-image:url('../assests/footer-bg.cc00989cacc2122a.svg');
+    background-size: cover;
+    color: #0b7077;
+    height:500px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 100px;
+}
+.footer-section .address-section{
+    margin-top:100px;
+    margin-left:-40px;
+    font-size: 18px;
+}
+.footer-section .address-section p span i{
+    margin-right:10px;
+}
+.footer-section .details-section{
+    margin-top: 80px;
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-section .details-section .courses-section p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-section .details-section .courses-section ul li{
+    color:#212121;
+    font-size: 18px;
+    line-height: 40px;
+    list-style: none;
+}
+.footer-section .details-section .courses-section ul li a{
+    
+    text-decoration: none;
+    margin-left: -40px;
+}
+.footer-section .details-section .links-section p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.footer-section .details-section .links-section ul li{
+    color:#212121;
+    font-size: 18px;
+    list-style: none;
+    line-height: 40px;
+}
+.footer-section .details-section .links-section ul li a{
+    
+    text-decoration: none;
+    
+}
+.footer-section .address-map-section iframe{
+    margin-top: 100px;
+    width:300px;
+    height: 300px;
+}
+
+/* about us page styles */
+.about-us-section .hr-link{
+    border-bottom: 1px solid #ffff;
+    width:78%;
+    margin: 20px auto 100px auto;
+    
+}
+.about-us-section .our-team-section .text-center .our-team-heading{
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+.about-us-section .our-team-section .text-center img{
+    margin-top: -20px;
+    margin-left: 130px;
+    
+}
+.about-us-section .our-team-section .text-center p{
+    line-height: 25px;
+}
+
+/* members images styles */
+
+.about-us-section .members-section-container-1{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    padding: -20px;
+}
+.about-us-section .members-section-container-1 .member{
+    position: relative;
+}
+.about-us-section .members-section-container-1 .member .member-info{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+.about-us-section .members-section-container-1 .member .member-info .member-name{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.about-us-section .members-section-container-1 .member .member-info .member-role{
+    font-size: 13px;
+    text-align: center;
+    padding: 3px;
+    margin: 0;
+}
+
+/* career guidance section styles */
+
+.career-guidance-section .career-guidance-container{
+    height:290px;
+    text-align: center;
+    background: url(../assests/carrer-page-bg.f90597aae995a987.svg);
+    padding-top: 100px;
+    
+}
+
+.career-guidance-section .career-guidance-container .heading{
+font-size: 48px;
+font-weight: 500;
+}
+.career-guidance-section .career-guidance-container p{
+    font-size: 23px;
+    font-weight: 100;
+    margin: 0;
+    padding: 10px;
+}
+
+.career-guidance-section .career-guidance-container .career-guidance-line{
+    width: 70px;
+    display: inline-block;
+    height: 3px;
+    background: #F8DA64;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-top: -10px;
+}
+
+/* question block styles */
+.career-guidance-section .career-flex-container{
+    display: flex;
+    line-height: 25px;
+}
+
+
+
+.career-guidance-section .career-flex-container .questions{
+    
+    background-color: #212121;
+    margin: 30px;
+    padding: 20px;
+    
+}
+
+.career-guidance-section .career-flex-container .questions .question-block{
+    
+    display: flex;
+}
+.career-guidance-section .career-flex-container .questions .question-block .student-logo{
+    width:25px;
+    height: 20px;
+    background: #d2e6e4;
+    align-self: baseline;
+    color: #000;
+    padding: 10px 11px;
+    border-radius: 50px;
+    margin-top: 9px;
+}
+.career-guidance-section .career-flex-container .questions .question-block p{
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+.career-guidance-section .career-flex-container .questions .answer-block{
+    background-color: #000;
+    margin-bottom: 20px;
+    
+}
+.career-guidance-section .career-flex-container .questions .answer-block .our-answer{
+    padding: 20px;
+    border-left: 3px solid #3CAA56;
+    margin: 10px;
+    
+}
+.career-guidance-section .career-flex-container .questions .answer-block .answer span {
+    margin: 5px;
+}
+
+.career-guidance-section .career-flex-container .form-container{
+    background-color: #212121;
+    margin-top:30px;
+    margin-right: 20px;
+    padding: 20px;
+   height: 850px;
+    
+}
+.career-guidance-section .career-flex-container .form-container form input,select,textarea{
+    background: #212121;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    width: 300px;
+    color: #fff;
+    padding:10px 10px 10px 0px;
+   
+}
+
+
+
+.career-guidance-section .career-flex-container .form-container form button{
+    background: #212121;
+    border: 1px solid #F7DA64;
+    color: #f7da64;
+    margin-top: 20px;
+    padding: 10px 59px;
+    border-radius: 58px;
+}
+
+/* login page styles */
+
+.login-page-section .login-page-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-page-section .login-page-container .login-image-container {
+    margin-left:100px;
+    width:700px;
+    height:700px;
+}
+.login-page-section .login-page-container .login-image-container img{
+    width:600px;
+}
+.login-page-section .login-page-container .login-image-container h3{
+    color: #fcfcfc;
+    font-size: 34px;
+    margin-left:30px;
+    margin-top: -10px;
+    font-weight: 600;
+}
+.login-page-section .login-page-container .login-form-container{
+    width:400px;
+    background: #e6e6e6;
+    margin:auto;
+    text-align: center;
+    padding: 50px 100px;
+    color: #112654;
+    border-radius: 12px;
+}
+.login-page-section .login-page-container .login-form-container p{
+    font-size: 20px;
+}
+.login-page-section .login-page-container .login-form-container .email-container input,.password-container input{
+    width:100%;
+    padding:15px 20px;
+    border-radius: 40px;
+    margin: 20px;
+    border:1px solid #212121;
+}
+.login-page-section .login-page-container .login-form-container .email-container,.password-container{
+    display: flex;
+    position: relative;
+
+}
+
+.login-page-section .login-page-container .login-form-container .email-container span i,.password-container span i{
+position: absolute;
+top:35px;
+right:40px;
+}
+.login-page-section .login-page-container .login-form-container button{
+    background-color: #21c98b;
+    width: 90%;
+    border: none;
+    color:#ffff;
+    font-size: 18px;
+    padding:15px 50px;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+
+/* frontend page styles */
+
+.frontend-section{
+    background-color: #212121;
+    margin:10px 70px;
+    padding: 30px;
+    color:#fffff0;
+}
+.frontend-section .frontend-image img{
+margin:0px 30px 10px 0px;
+}
+.frontend-section .register-button{
+    display: flex;
+    justify-content: right;
+}
+.frontend-section a{
+    
+    text-decoration: none;
+    color:#f8da64;
+    border: 1px solid #F8DA64;
+    padding:20px 30px;
+    margin:10px 40px;
+    border-radius: 8px;
+    
+}
+.frontend-section>p{
+line-height: 25px;
+}
+.frontend-section .sub-heading{
+    font-size: 19px;
+    margin: 20px 0px;
+}
+.frontend-section ul{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 20px 0px 0px;
+
+}
+.frontend-section ul li{
+    padding: 1px;
+}
+.frontend-section .frontend-flex-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.frontend-section .frontend-flex-container .frontend-info{
+    width:400px;
+    /* height: 320px; */
+    border: .5px solid #fff;
+    border-radius: 9px;
+    padding: 30px;
+    background: #3442D9;
+    margin: 20px;
+}
+.frontend-section .frontend-flex-container .frontend-info p
+{
+    font-size: 27px;
+    font-weight: 500;
+    margin: 10px;
+}
+.frontend-section .frontend-flex-container .frontend-info ul{
+    font-size: 17px;
+  
+
+}
+.frontend-section .frontend-flex-container .frontend-info ul li{
+    padding: 2px;
+    color:#fffff0;
+    line-height: 25px;
+}
+
+/* explore links  styles*/
+.explore-links{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.explore-links a{
+    color:#f8da63;
+    margin-top: 50px;
+    
+    font-size: 19px;
+}
+
+/* enroll form styles */
+
+.enroll-form-container{
+    width:60%;
+    
+    background-color: #212121;
+    margin: auto;
+    padding:20px 100px;
+}
+.enroll-form-container .flex-container{
+    
+   padding: ;
+}
+.enroll-form-container .flex-container input{
+    width:70%;
+    background: #212121;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    width: 300px;
+    color: #fff;
+    padding:10px 10px 10px 0px;
+
+}
+.enroll-form-container form div.login-button button{
+    background: #212121;
+    border: 1px solid #F7DA64;
+    color: #f7da64;
+    margin-top: 20px;
+    padding: 10px 59px;
+    border-radius: 58px;
+}
